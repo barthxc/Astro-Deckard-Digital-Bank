@@ -1,0 +1,23 @@
+---
+import DDBLayout from '../layouts/DDBLayout.astro';
+import Navbar from '../components/Navbar/Navbar';
+import Hero from '../components/Hero/Hero.astro';
+import Productos from '../components/Productos/Productos.astro'
+import Adaptamos from '../components/Adaptamos/Adaptamos.astro'
+import Servicios from '../components/Servicios/Servicios.astro'
+import Viaje from '../components/Viaje/Viaje.astro';
+import Aside from '../components/Aside/Aside.astro';
+---
+
+<DDBLayout>
+{/* poner los componentes creados aquí*/}
+<Navbar client:visible/>
+<Hero/>
+<Productos/>
+<Adaptamos/>
+<Servicios/>
+<Viaje/>
+<Aside/>
+
+</DDBLayout>
+

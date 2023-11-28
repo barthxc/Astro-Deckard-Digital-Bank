@@ -1,0 +1,35 @@
+body{
+    background-color: #191919;
+}
+
+
+.menu .efecto-azul:hover{
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #4090b5, 0 0 20px #4090b5, 0 0 30px #4090b5, 0 0 40px #4090b5,
+        0 0 70px #4090b5, 0 0 80px #4090b5, 0 0 100px #4090b5, 0 0 150px #4090b5;
+    }
+    to {
+      text-shadow: 0 0 5px #4090b5, 0 0 10px #4090b5, 0 0 15px #4090b5, 0 0 20px #4090b5,
+        0 0 35px #4090b5, 0 0 40px #4090b5, 0 0 50px #4090b5, 0 0 75px #4090b5;
+    }
+  }
+
+
+  .menu .efecto-morado:hover{
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #9E30A9, 0 0 20px #9E30A9, 0 0 30px #9E30A9, 0 0 40px #9E30A9,
+        0 0 70px #9E30A9, 0 0 80px #9E30A9, 0 0 100px #9E30A9, 0 0 150px #9E30A9;
+    }
+    to {
+      text-shadow: 0 0 5px #9E30A9, 0 0 10px #9E30A9, 0 0 15px #9E30A9, 0 0 20px #9E30A9,
+        0 0 35px #9E30A9, 0 0 40px #9E30A9, 0 0 50px #9E30A9, 0 0 75px #9E30A9;
+    }
+  }
